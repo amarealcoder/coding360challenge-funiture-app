@@ -14,10 +14,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1500px;
 }
 
 .intro-img1 img {
-  width: 95%;
+  width: 90%;
   vertical-align: middle;
   position: absolute;
   top: 20rem;
@@ -34,7 +35,14 @@
     height: 350px;
   }
   .intro-img2 img {
-    top: 9rem;
+    /* width: 13rem; */
+    top: 6rem;
+  }
+}
+@media(min-width: 900px){
+  .intro-img2 img {
+    width: 18rem;
+    top: 8rem;
   }
 }
 @media (min-width: 540px) {

@@ -1,0 +1,84 @@
+.info-container {
+  width: 100%;
+  position: absolute;
+  top: 30rem;
+  padding: 0.75rem;
+}
+.info-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-btn button {
+  background-color: #ca8a04;
+  padding: 8px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.info-btn button:hover{
+  background-color: #ef4444;
+}
+.info-content {
+  margin-top: 5rem;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-gap: 5rem;
+  justify-items: center;
+}
+.info-box {
+  width: 80%;
+}
+.info-icons {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 8px #ca8a04 solid;
+  height: 4.5rem;
+  width: 4.5rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.info-box h3 {
+  margin: 1em 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 2rem;
+}
+.info-box p {
+  line-height: 1.5rem;
+}
+
+@media (min-width: 520px) {
+  .info-container {
+    top: 35rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .info-container {
+    top: 46rem;
+  }
+  .info-content {
+  margin-top: 8rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  grid-gap: 5rem;
+  justify-items: center;
+}
+}
+
+@media (min-width: 1000px) {
+  .info-container {
+    top: 55rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .info-container {
+    top: 75rem;
+  }
+}
